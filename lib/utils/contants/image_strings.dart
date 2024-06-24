@@ -15,4 +15,17 @@ class TImages {
       "assets\images\onboarding_images\sammy-shopping.gif";
   static const String onBoardingImage3 =
       "assets\images\onboarding_images\sammy-delivery.gif";
+
+  static const String productsIllustration =
+      "assets\images\animations\sammy-line-woman-on-a-run.png";
+  static const String productsSaleIllustration =
+      "assets\images\animations\sammy-line-woman-buying-electronics-on-sale.png";
+  static const String staticSuccesIllustration =
+      "assets\images\animations\sammy-line-man-and-woman-high-fiving-each-other.png";
+  static const String deliveredInPlaneIllustration =
+      "assets\images\animations\sammy-line-come-back-later.png";
+  static const String deliveredEmailIllustration =
+      "assets\images\animations\sammy-line-man-receives-a-mail.png";
+  static const String verifyIllustration =
+      "assets\images\animations\sammy-line-travel-backpack-with-passport-and-air-ticket.gif";
 }
