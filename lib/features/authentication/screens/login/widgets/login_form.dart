@@ -1,3 +1,4 @@
+import 'package:e_commerce/features/authentication/screens/password_configurations/forget_password.dart';
 import 'package:e_commerce/features/authentication/screens/signup/signup.dart';
 import 'package:e_commerce/utils/contants/sizes.dart';
 import 'package:e_commerce/utils/contants/text_strings.dart';
@@ -42,7 +43,8 @@ class TLoginForm extends StatelessWidget {
                 ],
               ),
               TextButton(
-                  onPressed: () {}, child: const Text(TTexts.forgetPassword))
+                  onPressed: () => Get.to(() => const TForgetPasswordScreen()),
+                  child: const Text(TTexts.forgetPassword))
             ],
           ),
           const SizedBox(
