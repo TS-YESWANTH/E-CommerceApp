@@ -1,4 +1,10 @@
 import 'package:e_commerce/common/widgets/custom_shapes/containers/primary_header_constainer.dart';
+import 'package:e_commerce/common/widgets/custom_shapes/containers/search_container.dart';
+import 'package:e_commerce/common/widgets/texts/section_heading.dart';
+import 'package:e_commerce/features/shop/screens/home/widgets/home_appbar.dart';
+import 'package:e_commerce/features/shop/screens/home/widgets/home_categories.dart';
+import 'package:e_commerce/utils/contants/colors.dart';
+import 'package:e_commerce/utils/contants/sizes.dart';
 import 'package:flutter/material.dart';
 
 class THomeScreen extends StatelessWidget {
@@ -6,10 +12,40 @@ class THomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: SingleChildScrollView(
         child: Column(
-          children: [TPrimaryHeaderContainer(child: Container())],
+          children: [
+            TPrimaryHeaderContainer(
+              child: Column(
+                children: [
+                  THomeAppBar(),
+                  SizedBox(
+                    height: TSizes.spaceBtwSections,
+                  ),
+                  TSearchContainer(
+                    text: "Seacrh in Store",
+                  ),
+                  SizedBox(
+                    height: TSizes.spaceBtwSections,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: TSizes.defaultSpace),
+                    child: Column(
+                      children: [
+                        TSectionHeading(
+                          title: "Popular Choices",
+                          showActionsButton: false,
+                          textColor: TColors.white,
+                        ),
+                        THomeCategories()
+                      ],
+                    ),
+                  )
+                ],
+              ),
+            )
+          ],
         ),
       ),
     );
