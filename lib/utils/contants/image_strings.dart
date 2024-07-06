@@ -29,13 +29,24 @@ class TImages {
   static const String verifyIllustration =
       "assets\images\animations\sammy-line-travel-backpack-with-passport-and-air-ticket.gif";
 
-  static const String sportIcon = "assets\icons\categories\icons8-bowling-64.png";
-  static const String clothIcon = "assets\icons\categories\icons8-tailors-dummy-80.png";
+  static const String sportIcon =
+      "assets\icons\categories\icons8-bowling-64.png";
+  static const String clothIcon =
+      "assets\icons\categories\icons8-tailors-dummy-80.png";
   static const String showIcon = "assets\icons\categories\icons8-shoes-64.png";
-  static const String cosmeticsIcon = "assets\icons\categories\icons8-cosmetics-48.png";
+  static const String cosmeticsIcon =
+      "assets\icons\categories\icons8-cosmetics-48.png";
   static const String animalIcon = "assets\icons\categories\icons8-dog-48.png";
-  static const String toyIcon = "assets\icons\categories\icons8-toy-car-100.png";
-  static const String furnitureIcon = "assets\icons\categories\icons8-dining-chair-96.png";
-  static const String jeweleryIcon = "assets\icons\categories\icons8-sparkling-diamond-48.png";
-  static const String electronicsIcon = "assets\icons\categories\icons8-smartphone-48.png";
+  static const String toyIcon =
+      "assets\icons\categories\icons8-toy-car-100.png";
+  static const String furnitureIcon =
+      "assets\icons\categories\icons8-dining-chair-96.png";
+  static const String jeweleryIcon =
+      "assets\icons\categories\icons8-sparkling-diamond-48.png";
+  static const String electronicsIcon =
+      "assets\icons\categories\icons8-smartphone-48.png";
+
+  static const String promoBanner1 = "assets\images\banners\promo-banner-1.jpg";
+  static const String promoBanner2 = "assets\images\banners\promo-banner-2.jpg";
+  static const String promoBanner3 = "assets\images\banners\promo-banner-3.jpg";
 }
